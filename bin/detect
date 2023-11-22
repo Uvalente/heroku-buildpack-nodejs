@@ -62,6 +62,7 @@ file is present at the top level directory. This directory has the
 following files:
 
 $(ls -1p "$1")
+$(pwd)
     
 If you are trying to deploy an application written in another
 language, you need to change the list of buildpacks set on your
