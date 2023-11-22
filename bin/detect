@@ -63,6 +63,9 @@ following files:
 
 $(ls -1p "$1")
 $(pwd)
+$(echo "$ 1 is:")
+$(echo "$1")
+$(ls ../platform/env)
     
 If you are trying to deploy an application written in another
 language, you need to change the list of buildpacks set on your
